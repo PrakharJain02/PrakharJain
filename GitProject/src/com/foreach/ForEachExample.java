@@ -46,6 +46,13 @@ public class ForEachExample {
 		arrayList.stream() // creating Stream
 		.filter(a->a.startsWith("P"))
 		.forEachOrdered(System.out::println);;
+		System.out.println("-------------------- :: For Each :: ------------------------");
+		arrayList.forEach(a -> System.out.println(a));
+		
+		
+		
+		
+		
 		
 		
 
